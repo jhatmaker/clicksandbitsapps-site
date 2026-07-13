@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Guidelines — ClicksAndBits Apps</title>
+  <meta name="description" content="The ClicksAndBits Apps brand guidelines: logo, color palette, gradients, and typography for JEH Electronics.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="wrap nav" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <img src="assets/img/icon.svg" alt="">
+        <span class="brand-txt">Clicks<em>And</em>Bits</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-controls="nav-links" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="brand.html">Brand</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a class="btn btn--primary btn--sm" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow">Design system</span>
+        <h1>Brand guidelines</h1>
+        <p>The colors, logo, and type that make ClicksAndBits feel like ClicksAndBits.</p>
+      </div>
+    </section>
+
+    <!-- LOGO -->
+    <section class="section">
+      <div class="wrap prose" style="max-width:900px">
+        <h2>Logo</h2>
+        <p>Our mark is a phone launching a green arrow upward, trailed by colorful “bits” and anchored by a click cursor. It captures the whole idea in one image: a tap sets things in motion, and data flies.</p>
+        <div class="grid grid-2" style="align-items:stretch;margin:1.4rem 0">
+          <div class="card center" style="display:flex;flex-direction:column;justify-content:center;gap:1rem">
+            <img src="assets/img/logo-full.svg" alt="ClicksAndBits Apps full logo" style="max-height:220px;margin:auto">
+            <p class="small muted mb-0">Full logo — use on light backgrounds, marketing, and app-store assets.</p>
+          </div>
+          <div class="card center" style="display:flex;flex-direction:column;justify-content:center;gap:1rem;background:var(--cb-indigo-2)">
+            <img src="assets/img/icon.svg" alt="ClicksAndBits Apps icon mark" style="max-height:160px;margin:auto">
+            <p class="small mb-0" style="color:rgba(255,255,255,.75)">Icon mark — use for favicons, avatars, and the nav. Reads on light or dark.</p>
+          </div>
+        </div>
+
+        <div class="do-dont">
+          <div class="dd dd--do">
+            <h4>✅ Do</h4>
+            <ul>
+              <li>Give the logo clear space on all sides.</li>
+              <li>Use the icon mark when space is tight.</li>
+              <li>Place it on white, very light, or deep-indigo backgrounds.</li>
+              <li>Scale it proportionally.</li>
+            </ul>
+          </div>
+          <div class="dd dd--dont">
+            <h4>🚫 Don't</h4>
+            <ul>
+              <li>Recolor, rotate, or add effects to the mark.</li>
+              <li>Place it on busy or low-contrast backgrounds.</li>
+              <li>Stretch or squash it.</li>
+              <li>Rebuild the wordmark in a different font.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLORS -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Color</span>
+          <h2>Core palette</h2>
+          <p class="lead">Pulled directly from the logo. Indigo and sky blue lead; green, yellow, and orange are the playful “bits.”</p>
+        </div>
+
+        <h3 style="font-family:var(--font-display);margin-bottom:1rem">Primary</h3>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="swatch__chip" style="background:#00adee"></div><div class="swatch__body"><div class="swatch__name">Sky Blue</div><div class="swatch__hex">#00ADEE</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#2e3191"></div><div class="swatch__body"><div class="swatch__name">Deep Indigo</div><div class="swatch__hex">#2E3191</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#2e3159"></div><div class="swatch__body"><div class="swatch__name">Near Navy</div><div class="swatch__hex">#2E3159</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#5c8dd3"></div><div class="swatch__body"><div class="swatch__name">Slate Blue</div><div class="swatch__hex">#5C8DD3</div></div></div>
+        </div>
+
+        <h3 style="font-family:var(--font-display);margin:1.8rem 0 1rem">Accent “bits”</h3>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="swatch__chip" style="background:#36be4a"></div><div class="swatch__body"><div class="swatch__name">Clicks Green</div><div class="swatch__hex">#36BE4A</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#70e657"></div><div class="swatch__body"><div class="swatch__name">Light Green</div><div class="swatch__hex">#70E657</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#f4cb19"></div><div class="swatch__body"><div class="swatch__name">Bit Yellow</div><div class="swatch__hex">#F4CB19</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#f4a419"></div><div class="swatch__body"><div class="swatch__name">Bit Orange</div><div class="swatch__hex">#F4A419</div></div></div>
+        </div>
+
+        <h3 style="font-family:var(--font-display);margin:1.8rem 0 1rem">Neutrals</h3>
+        <div class="swatch-grid">
+          <div class="swatch"><div class="swatch__chip" style="background:#1c2333"></div><div class="swatch__body"><div class="swatch__name">Ink</div><div class="swatch__hex">#1C2333</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#647883"></div><div class="swatch__body"><div class="swatch__name">Muted Slate</div><div class="swatch__hex">#647883</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#e4e9f0"></div><div class="swatch__body"><div class="swatch__name">Line</div><div class="swatch__hex">#E4E9F0</div></div></div>
+          <div class="swatch"><div class="swatch__chip" style="background:#f5f8fc;border-bottom:1px solid #e4e9f0"></div><div class="swatch__body"><div class="swatch__name">Soft BG</div><div class="swatch__hex">#F5F8FC</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRADIENTS -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Color</span>
+          <h2>Signature gradients</h2>
+          <p class="lead">The logo is built from gradients — use them for heroes, buttons, and feature icons.</p>
+        </div>
+        <div class="grad-grid">
+          <div class="grad-card">
+            <div class="grad-card__band" style="background:linear-gradient(135deg,#00adee 0%,#2e3191 100%)"></div>
+            <div class="grad-card__body"><div class="swatch__name">Brand</div><div class="swatch__hex">Sky Blue → Indigo</div></div>
+          </div>
+          <div class="grad-card">
+            <div class="grad-card__band" style="background:linear-gradient(120deg,#70e657 0%,#00adee 55%,#2e3191 100%)"></div>
+            <div class="grad-card__body"><div class="swatch__name">Rise</div><div class="swatch__hex">Green → Blue → Indigo</div></div>
+          </div>
+          <div class="grad-card">
+            <div class="grad-card__band" style="background:linear-gradient(135deg,#f4cb19 0%,#f4a419 100%)"></div>
+            <div class="grad-card__body"><div class="swatch__name">Warm</div><div class="swatch__hex">Yellow → Orange</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TYPOGRAPHY -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Type</span>
+          <h2>Typography</h2>
+          <p class="lead">A friendly geometric display face paired with a highly readable body face.</p>
+        </div>
+        <div class="grid grid-2">
+          <div class="type-sample">
+            <div class="ts-label">Display · Poppins</div>
+            <p style="font-family:var(--font-display);font-weight:700;font-size:2.4rem;line-height:1.1;color:var(--ink);margin:.4rem 0 .2rem">Apps that click</p>
+            <p style="font-family:var(--font-display);font-weight:600;color:var(--ink-soft);margin:0">Headings, buttons, labels · 500 / 600 / 700</p>
+          </div>
+          <div class="type-sample">
+            <div class="ts-label">Body · Nunito Sans</div>
+            <p style="font-size:1.05rem;margin:.6rem 0 .2rem">The quick brown fox jumps over the lazy dog. Body copy is set in Nunito Sans for warmth and easy reading at any size.</p>
+            <p class="muted mb-0" style="font-size:.95rem">Paragraphs, lists, captions · 400 / 600 / 700</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPONENTS -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">In practice</span>
+          <h2>Components &amp; voice</h2>
+        </div>
+        <div class="grid grid-2" style="align-items:start">
+          <div class="card">
+            <h3>UI accents</h3>
+            <p>Rounded corners, soft shadows, and pill-shaped buttons keep things approachable. The four “bits” colors appear as small squares and dots — a signature motif.</p>
+            <div class="btn-row" style="margin:1rem 0 .6rem">
+              <span class="btn btn--primary">Primary</span>
+              <span class="btn btn--ghost">Secondary</span>
+            </div>
+            <div class="pill-row" style="margin-top:.6rem">
+              <span class="pill"><span class="dot" style="background:var(--cb-green)"></span> Free</span>
+              <span class="pill"><span class="dot" style="background:var(--cb-orange)"></span> Premium</span>
+              <span class="pill"><span class="dot" style="background:var(--cb-blue)"></span> Cloud</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Voice &amp; tone</h3>
+            <p>We're <strong>clear, warm, and a little playful</strong> — never stiff or salesy. We explain things plainly, respect the reader, and keep a light touch.</p>
+            <ul class="mb-0">
+              <li>Say “we” and “you.”</li>
+              <li>Prefer short sentences over jargon.</li>
+              <li>Be upfront about data and pricing.</li>
+              <li>Add a wink of personality, not noise.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/img/icon.svg" alt="ClicksAndBits Apps">
+          <p>Thoughtfully built apps for Android &amp; iOS — free and premium — from JEH Electronics.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="apps.html">All apps</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="brand.html">Brand guidelines</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy policy</a></li>
+            <li><a href="terms.html">Terms of use</a></li>
+            <li><a href="privacy.html#childrens-privacy">Children's privacy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help &amp; FAQ</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="mailto:support@clicksandbitsapps.com">support@clicksandbitsapps.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <span>© <span data-year>2026</span> JEH Electronics · ClicksAndBits Apps. All rights reserved.</span>
+        <span class="footer-badges" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
