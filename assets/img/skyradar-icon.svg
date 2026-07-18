@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="108" viewBox="0 0 108 108" role="img" aria-label="SkyRadar app icon">
+  <defs>
+    <radialGradient id="sr-bg" cx="54" cy="50" r="66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C2A1B"/>
+      <stop offset="1" stop-color="#05100A"/>
+    </radialGradient>
+    <linearGradient id="sr-sweep" x1="54" y1="54" x2="70" y2="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E676" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00E676" stop-opacity="0.33"/>
+    </linearGradient>
+    <clipPath id="sr-clip">
+      <rect width="108" height="108" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#sr-clip)">
+    <!-- Background -->
+    <rect width="108" height="108" fill="url(#sr-bg)"/>
+
+    <!-- Radar sweep wedge -->
+    <path d="M54,54 L54,20 L82,33 Z" fill="url(#sr-sweep)"/>
+
+    <!-- Range rings -->
+    <circle cx="54" cy="54" r="34" fill="none" stroke="#00E676" stroke-width="1.6" stroke-opacity="0.85"/>
+    <circle cx="54" cy="54" r="24" fill="none" stroke="#00E676" stroke-width="1.4" stroke-opacity="0.5"/>
+    <circle cx="54" cy="54" r="12" fill="none" stroke="#00E676" stroke-width="1.4" stroke-opacity="0.5"/>
+
+    <!-- Cross-hairs -->
+    <path d="M54,20 L54,88" stroke="#00E676" stroke-width="1.2" stroke-opacity="0.45"/>
+    <path d="M20,54 L88,54" stroke="#00E676" stroke-width="1.2" stroke-opacity="0.45"/>
+
+    <!-- Aircraft blip (triangle) -->
+    <path d="M70,38 L74,46 L66,46 Z" fill="#00E676"/>
+    <!-- Drone blip (diamond) -->
+    <path d="M40,68 L44,72 L40,76 L36,72 Z" fill="#FF9100"/>
+
+    <!-- Own position -->
+    <circle cx="54" cy="54" r="3" fill="#FFFFFF"/>
+  </g>
+</svg>
